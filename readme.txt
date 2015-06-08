@@ -19,6 +19,9 @@ To display links in a post or page use the following short tags:
 Plugin has broken link check functionality.
 
 
+See https://nocomplexity.com/openarchitecture/ for a live demo.
+
+
 == Installation ==
 Follow this steps to install this plugin:
 
@@ -28,8 +31,6 @@ Follow this steps to install this plugin:
 == Screenshots ==
 1. Basic output with [SHOWLINKS]  tag.
 
-
-See https://nocomplexity.com/openarchitecture/ for a live demo.
 
 How does it work?
 This module makes use of Custom Post Types with non hierarchical catelogue option. So you can give links one or multiple tags.
