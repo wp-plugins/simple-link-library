@@ -26,8 +26,10 @@ Follow this steps to install this plugin:
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Screenshots ==
-1. Basic output with [SHOWLINKS]  tag 
-or see https://nocomplexity.com/openarchitecture/ for a live demo.
+1. Basic output with [SHOWLINKS]  tag.
+
+
+See https://nocomplexity.com/openarchitecture/ for a live demo.
 
 How does it work?
 This module makes use of Custom Post Types with non hierarchical catelogue option. So you can give links one or multiple tags.
