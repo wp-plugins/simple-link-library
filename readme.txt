@@ -22,6 +22,13 @@ Plugin has broken link check functionality.
 See https://nocomplexity.com/openarchitecture/ for a live demo.
 
 
+How does it work?
+This module makes use of Custom Post Types with non hierarchical catelogue option. So you can give links one or multiple tags.
+Tags works great for retrieving or exporting only certain types of links.
+If all tags for a link are deleted, the link still exist. This is default WP functionality. Since this plugin in built on using default wordpress hooks,
+exporting and importing links can be done used as with post or pages. 
+
+
 == Installation ==
 Follow this steps to install this plugin:
 
@@ -31,9 +38,3 @@ Follow this steps to install this plugin:
 == Screenshots ==
 1. Basic output with [SHOWLINKS]  tag.
 
-
-How does it work?
-This module makes use of Custom Post Types with non hierarchical catelogue option. So you can give links one or multiple tags.
-Tags works great for retrieving or exporting only certain types of links.
-If all tags for a link are deleted, the link still exist. This is default WP functionality. Since this plugin in built on using default wordpress hooks,
-exporting and importing links can be done used as with post or pages. 
