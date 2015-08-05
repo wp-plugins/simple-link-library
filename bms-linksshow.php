@@ -22,8 +22,15 @@ function bms_yall2_ajaxhandler(){
     //check the nonce
     check_admin_referer( 'bms_ajaxloadpost_nonce', 'nonce' );
     
-    $bms_show_terms = $_POST['catid'];
-    
+    $bms_show_terms = filter_var($_POST['catid'], FILTER_VALIDATE_INT);
+    if (filter_var($_POST['catid'], FILTER_VALIDATE_INT) === 0 || !filter_var($_POST['catid'], FILTER_VALIDATE_INT) === false) {
+        $bms_show_terms = $_POST['catid'];
+    } else {
+        $output = 'Error:HTML input validation (ajax hacking script?)';
+        wp_die($output);
+    }
+
+
     $output = '';
     $loop = new WP_Query(
             array(
