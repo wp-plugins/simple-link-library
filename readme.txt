@@ -39,7 +39,9 @@ Follow this steps to install this plugin:
 1. Basic output with [SHOWLINKS]  tag.
 
 == Changelog ==
+
 = 1.0.0 =
+
 version 1.0.0:
 * Minor security update to prevent ajax hacking on input
 * Tested with WP 4.3
