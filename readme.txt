@@ -3,7 +3,7 @@ Contributors: MaikelM
 Tags: links, library
 Stable tag: 3.8
 Requires at least: 4.0
-Tested up to: 4.2.2
+Tested up to: 4.3
 License: GPLv3
 
 Manage your link collection in a simple way.
