@@ -3,7 +3,7 @@
 Plugin Name: Simple Link Library
 Plugin URI: http://www.bm-support.org
 Description: Simple Link organizer for displaying links
-Version: 0.9.1 
+Version: 1.0.0 
 Author: Maikel Mardjan
 Author URI: http://nocomplexity.com
 License: GPL3
